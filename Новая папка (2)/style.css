@@ -17,7 +17,6 @@ th {border:5px double #FFD700
 td {border:5px double #FFD700}
 p a {color:red; background-color: #FFD700;
 }
-p iframe {border:10px solid red}
+p iframe {border:10px inset lightblue}
 h3 {font-size: 30px
 }
-p {background-color:grey; font-size:50px}
