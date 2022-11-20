@@ -1,0 +1,22 @@
+p {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+a {
+    text-decoration: none; 
+    border-radius: 5px;
+   font-size: 25px;
+   padding: 9px;
+   margin: 15px;
+   color:black;
+   border: 3px solid darkgray;
+   background-color: cornsilk;
+}
+body {
+    background-color: cornsilk;
+    border: 5px inset darkgray;
+} 
+img {
+width: 30px; ;
+height: 30px; ;
+} 

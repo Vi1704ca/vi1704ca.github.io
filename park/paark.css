@@ -1,0 +1,31 @@
+img {
+    width: 450px;
+}
+.true {
+    border: 5px solid rgb(12, 255, 4);
+    background-color: rgb(0, 130, 22);
+}
+a {
+   text-decoration: none; 
+   border-radius: 5px;
+  font-size: 25px;
+  padding: 9px;
+  margin: 15px;
+  color:aliceblue;
+}
+.false {
+    border: 5px solid #ff0000;
+    background-color: rgb(255, 80, 80);
+    color: aliceblue;
+}
+h2 {
+    font-size: 40px;
+}
+    
+body{
+    background-color: rgb(177, 86, 0);
+}
+h1, h2 {
+    background-color: darkkhaki;
+    color:whitesmoke
+}
