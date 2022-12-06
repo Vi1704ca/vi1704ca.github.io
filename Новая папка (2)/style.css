@@ -5,6 +5,7 @@ header {background-color:#FA8072;
 main {color:whitesmoke;background-color: #FFA07A;
 }
 h2 {color:white;background-color: darkgrey;font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1 {text-align:center; font-size:70;color:yellow
 }
@@ -17,6 +18,42 @@ th {border:5px double #FFD700
 td {border:5px double #FFD700}
 p a {color:red; background-color: #FFD700;
 }
-p iframe {border:10px double lightblue}
 h3 {font-size: 30px
+}
+p a {
+    font-size: 40px
+}
+
+img
+{
+height: 150;
+width: 250;
+}
+.F
+{
+    width:150;
+    height: 150;
+}
+h3 iframe {
+    border: 5px groove yellow;
+}
+div {
+    background-color:#CD5C5C;
+    border: 5px #FFA07A;
+}
+div table {
+    border:5px inset #FFD700; 
+    font-size: 25px;
+    color:white;
+    text-align:right;
+    background-color: #FA8072;
+
+}
+tr {
+    border: 5px groove yellowgreen;
+}
+tr td a {
+    text-decoration: none;
+    color: white;
+    
 }
