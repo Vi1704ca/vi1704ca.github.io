@@ -1,0 +1,12 @@
+footer {
+    height: 300px;
+    color:white;
+}
+body {
+    background-color: grey;
+}
+audio{
+    text-align: left;
+    border: 5px solid darkkhaki;
+    border-radius: 15px;
+}
