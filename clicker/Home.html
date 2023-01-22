@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="home.png">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+<ul>
+    <li><a href="html.html" target="_blank">Clicker games</a></li>
+    <li><a href="maniken.html">Game</a></li>
+    <li><a href="https://popcat.click/" target="_blank">Popcat</a></li>
+
+</ul>
+   <ul>
+<li><button onclick="changeColor();">I have mobile phone</button></li>   
+<li><button>have Pc</button> </li>   
+   </ul>
+    
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="cods.html">Comment</a>
+    <a href="https://discord.gg/kDwVs4fY" target="_blank">Discord</a>
+  </div>
+  
+  <div id="main">
+    <button class="settings" onclick="openNav()">Menu</button>
+  </div>
+    </header>
+
+<style>
+  li button {
+    background-color: rgb(31, 31, 31);
+    border:none;
+    color:green;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  li button:hover{
+    font-size: 150%;
+    background-attachment: fixed;
+    background-color: #111;
+  }
+ul {
+  font-size: 150%;
+}
+
+
+    header, a {
+        background-color: rgb(31, 31, 31);
+        color:green;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+    }
+    body {
+        background-color: rgb(0, 0, 0);
+        color:green;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-image: url('hackerTimon.png');
+        text-decoration: none;
+    }
+
+    .settings {
+    font-size: 10px;
+    color: black;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: .5em 2em;
+    background: #FFFFFF;
+    border: 2px solid #4D5259;
+    box-shadow: 4px 4px 0 0 #4D5259;
+    outline:0;
+  }
+  
+  .settings:active {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: 0px 0px 0 0 #4D5259;
+  }
+  .settings:hover {
+    background: #d3d3d3;
+  }
+
+
+
+
+
+    .sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+</style>
+
+<script>
+    
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+
+
+
+
+
+var colorArray = ["url('space.png')", "url('ti.png')", "url('mushoroom.png')"];
+var i = 0;
+
+function changeColor(){
+    document.body.style.background = colorArray[i];
+    i++;
+    if( i >= colorArray.length) {
+        i = 0;
+    }
+}
+
+
+
+</script>
+</body>
+    
+</html>

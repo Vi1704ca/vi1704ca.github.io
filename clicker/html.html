@@ -1,0 +1,49 @@
+<html>
+    <title>Clicker Clicker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/8038/8038878.png">
+    <body onbeforeunload="return closingCode()">
+      <link rel="stylesheet" href="css.css">
+        <script src="js.js"></script>
+
+
+
+        <center class="center">
+          <h1 id='total'>⭐Clicker: 0⭐</h1>
+          <h5 id="click" style="font-family:trebuchet MS;">⭐Click: 1 | click/sec: 0⭐</h5>
+          <img class="round" src="imon.png" width="350" onclick='clicked()'></img>
+          <br><br>
+          
+            <button id='upgrade' class="round" onclick='upgrade("upgrade")' style="font-family:courier;">⭐0-main upgrade: 15⭐</button>
+          <br><br>
+          <button id='cat' class="round" onclick='upgrade("clicker cat")' style="font-family:courier;">⭐0-clicker Tima: 25 | +1/sec ⭐</button>
+        
+          <br><br>
+         <button id='worker' class="round" onclick='upgrade("worker")' style="font-family:courier;">⭐0-worker: 250 | +15/sec⭐</button><br><br>
+          <button class="settings" onclick="save()">Save</button>
+          <button class="settings" onclick="load()">Load</button>
+          <button class="settings" onclick="reset()">Reset</button>
+          <button class="settings" onclick="mod()">Mod Menu</button>
+          <br>
+          <br>
+            <button class="settings" onclick="changeColor();">Background click</button>
+          
+          
+
+          <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="cods.html">Comment</a>
+            <a href="https://discord.gg/kDwVs4fY">Discord</a>
+            <a href="form.html">Form registar</a>
+          </div>
+          
+          <div id="main">
+            <button class="settings" onclick="openNav()">Menu</button>
+          </div>
+          <br><br>
+        </center>
+      </link>
+    </body>
+    </meta>
+    
+    </html>
