@@ -1,0 +1,87 @@
+* {
+    cursor: url('red.png'), auto;
+    
+}
+img main{
+     width: 250px;
+     height: 350px;
+}
+div, a, button:hover {
+    cursor: url('yellow.png'), pointer;
+}
+
+.new, h1 {
+font-family: "New";
+text-align: center;
+font-size: 50px;
+}
+
+
+@font-face {
+    font-family: "New";
+    src: url('Chomsky.otf');
+}
+aside {
+    display: flex;
+    border: 5px double rgb(89, 87, 87);
+    width: 48%;
+     font-family: "Write";   
+
+
+}
+@font-face {
+    font-family: "Write";
+    src: url('Chinchilla.ttf');
+}
+
+@font-face {
+    font-family: "Lego";
+    src: url('Legothick.ttf');
+}
+a {
+    font-family: "Lego";
+    font-size: 65%;
+}
+.mi {
+    justify-content: space-between;
+    font-size: 195%;
+    
+}
+
+
+
+body {
+    background-color: rgb(193, 202, 210);
+    display: flow-root;
+}
+
+section {
+    text-align: center;
+    font-family: "Lego";
+    font-size: 25px;
+    display: flex;
+}
+
+
+textarea {
+    color:black;
+    font-family: "Write";
+    cursor: url('paint.png'), auto;
+    
+}
+textarea:hover {
+    border: 5px double rgb(0, 192, 0);
+    box-shadow: 2px 5px 3px 4px rgb(0, 110, 9);
+    cursor: url('paint.png'), auto
+}
+input, textarea {
+    background:transparent;
+    font-family: "Write";
+    border: none;
+    font-size: 65%;
+    display: flex;
+}
+input:active {
+    border: none;
+    cursor: url('paint.png'), auto;
+}
