@@ -1,0 +1,52 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	cursor: url('cursor.png'), auto;
+}
+
+body {
+	justify-content: space-around;   
+    align-items: center;
+	display: flex;
+
+}
+div {
+	width:350px;
+	height: 350px;
+	background: darkolivegreen;
+	background: linear-gradient(blue, darkblue, darkgreen, green);
+	user-select:none;
+}
+h1 {
+	font-size: 35px;
+
+}
+h3 {
+	background: -webkit-linear-gradient( green, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+ 
+ h1:hover {
+ 	background: -webkit-linear-gradient( green, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    margin-bottom: 5px;
+ }
+
+ h1:activ {
+ 	background: -webkit-linear-gradient( black, darkred, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    margin-bottom: 5px;
+ }
+
+ .eat {
+ 	background-image: url('https://www.tileflair.co.uk/public/backend/uploads/imagemanager/blog%20Mont-Blanc%20340x340px.jpg');
+ 	width:340px;
+	height: 340px;
+ }
