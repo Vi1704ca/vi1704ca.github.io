@@ -1,0 +1,104 @@
+<script>
+	var name = prompt("Введите имя");
+	alert("Приветствуем! " + name);
+    var yearsOld = prompt("Напишите сколько вам лет");
+    var das = prompt("Напишите кем вы роботаете");
+    alert("Приветствуем " + name + " мы взяли все ваши данные. Чтоб посмотреть нажмите на ок");
+    alert("Извеняемся за не удобства вот ваш паспорт!"+ "\n" + "Имя: " + name + "\n" + "Возраст: " + yearsOld + "\n" + "Робота: " + das);
+    document.write("Вот ваши данные "+ "<br>" + "Имя: " + name + "<br>" + "Возраст: " + yearsOld + "<br>" + "Робота: " + das + "<br>");
+    var q = prompt("Что запустить ? ядерку, тревогу, венсдей, телепорт (это только пример можно написать все что угодно!)");
+    if (q === "ядерку") {
+  var img = new Image();
+  img.src = "https://i.gifer.com/1Zwt.gif";
+  document.body.appendChild(img);
+    }
+    if (q === "венсдей") {
+        var img = new Image();
+  img.src = "https://mempro.ru/wp-content/uploads/2023/03/image-11.png";
+  document.body.appendChild(img);
+   var plase = prompt("Напишите куда запустить " + q);
+    var time = prompt("Напишите на который час запустить " + q)
+    document.write(" Успешно отправлено " + q + " на " + plase + " на " + time);
+    }
+
+       if (q === "тревога") {
+        var img = new Image();
+  img.src = "https://www.5.ua/media/pictures/original/254288.jpg?t=1664302931";    
+  document.body.appendChild(img);
+   var plase = prompt("Напишите куда запустить " + q);
+    var time = prompt("Напишите на который час запустить " + q)
+    document.write(" Успешно отправлено " + q + " на " + plase + " на " + time);
+    }
+    if (q === "телепорт")   {
+      var img = new Image();
+    img.src = "https://media.tenor.com/GiOHd8CRxnwAAAAC/quin-tp-teleport-portal-quin69sperg.gif";    
+    document.body.appendChild(img);
+      var person = prompt("Что телепортировать?");
+      var plasetp = prompt("Куда телепортировать?");
+      var timetp = prompt("Когда телепортировать?");
+      
+    document.write(" Успешно отправлено " + q + " на " + plasetp + " на " + timetp + " Кого и что " + person);
+   }
+
+    else  {
+  var img = new Image();
+  img.src = "https://i.pinimg.com/originals/8d/22/6f/8d226f9da309bc5ed4262883b76fa1b3.jpg";    
+  document.body.appendChild(img);
+  
+}
+    
+    var sek = 10;
+    alert("Обратный отщёт включон!")
+     alert(sek);
+     alert(sek-1);
+     alert(sek-2);
+     alert(sek-3);
+     alert(sek-4);
+     alert(sek-5);
+     alert(sek-6);
+     alert(sek-7);
+     alert(sek-8);
+     alert(sek-9);
+
+var code = prompt("Введите код:");
+
+if (code === "мишка_фредди") {
+  alert("Код является для разработчика");
+  document.write("<br>" + "Приветсвуем разроботчик!");
+ var img= document.querySelector('im');
+  var img =new Image();
+img.src = "hacker.jpg";
+document.body.appendChild(img);
+
+} else {
+  alert("Код правельный");
+};
+var some = confirm("Тебе понравилось?");
+if (some === true) {
+  document.write("<br>" + "Спасибо! за отзыв хороший");
+} else {
+  document.write("<br>" + "Грусно но вкусно (отзыв)")
+}
+ 
+</script>
+<style>
+/*img {
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  left: 40%;
+}*/
+body {
+  background: burlywood;
+  font-family: fantasy;
+  font-size: 25px;
+}
+img {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  height: 200px;
+}
+
+ 
+</style>
