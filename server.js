@@ -13,13 +13,13 @@ app.post('/send-email', async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: 'vica.ti17@gmail.com', // Ваш Gmail адрес
-      pass: 'IamGroot10' // Пароль от вашего Gmail аккаунта
+      user: 'email', // Ваш Gmail адрес
+      pass: 'password' // Пароль от вашего Gmail аккаунта
     }
   });
 
   const mailOptions = {
-    from: 'vica.ti17@gmail.com',
+    from: '"Кевин" email',
     to: email,
     subject: 'Hello',
     text: 'Hello, ' + username + '! Welcome to our website!'
@@ -32,6 +32,11 @@ app.post('/send-email', async (req, res) => {
     console.error('Error sending email:', error);
     res.status(500).json({ message: 'An error occurred while sending the email.' });
   }
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
 
 const PORT = process.env.PORT || 3000;
