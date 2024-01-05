@@ -39,12 +39,84 @@ var HOME = `
 
 <p>"Freddy Fazber Clicker" provides an entertaining experience for clicker game enthusiasts and fans of Freddy Fazbear's Pizza. Considering potential issues, developers are constantly working to improve the program, ensuring a pleasant gaming experience for all players.</p>
 
+<p>How to Upgrade?</p>
+<p>Click on the lightning icon in the menu and purchase upgrades!</p>
+
+<table>
+  <tr>
+    <th>Level</th>
+    <th>Price</th>
+    <th>One Click</th>
+    <th>Upgrade</th>
+  </tr>
+  <br>
+  <tr>
+    <td>1 lvl</td>
+    <td>450 clicks</td>
+    <td>one click = +2</td>
+  </tr>
+  <tr>
+    <td>2 lvl</td>
+    <td>850 clicks</td>
+    <td>one click = +3</td>
+  </tr>
+  <tr>
+    <td>3 lvl</td>
+    <td>1500 clicks</td>
+    <td>one click = +4</td>
+  </tr>
+  <tr>
+    <td>4 lvl</td>
+    <td>2000 clicks</td>
+    <td>one click = +5</td>
+  </tr>
+  <tr>
+    <td>5 lvl</td>
+    <td>2500 clicks</td>
+    <td>one click = +6</td>
+  </tr>
+  <tr>
+    <td>6 lvl</td>
+    <td>3000 clicks</td>
+    <td>one click = +7</td>
+  </tr>
+  <tr>
+    <td>7 lvl</td>
+    <td>3500 clicks</td>
+    <td>one click = +8</td>
+  </tr>
+  <tr>
+    <td>8 lvl</td>
+    <td>4000 clicks</td>
+    <td>one click = +9</td>
+  </tr>
+  <tr>
+    <td>9 lvl</td>
+    <td>5000 clicks</td>
+    <td>one click = +10</td>
+  </tr>
+  <tr>
+    <td>10 lvl</td>
+    <td>5500 clicks</td>
+    <td>one click = +11</td>
+  </tr>
+  <tr>
+    <td>11 lvl</td>
+    <td>6000 clicks</td>
+    <td>one click = +12</td>
+  </tr>
+  <tr>
+    <td>12 lvl</td>
+    <td>7000 clicks</td>
+    <td>one click = +13</td>
+  </tr>
+</table>
 `;
 
 let DOWNLOAD = `
 <h1>Update "Freddy Fazber Clicker" - Version 2.0</h1>
 
-<br> <br> <br> <a href="Архив ZIP - WinRAR.zip" download>Download<img src="download.png"></a> <br> <br> <br> <br> <br>
+<br> <br> <br> <a href="clicker.zip" download>Download<img src="download.png"></a> <br> <br> <br> <br> <br>
 
 <h3>Introduction</h3>
 <p>We are excited to present to you the long-awaited update for "Freddy Fazber Clicker"! Version 2.0 includes numerous improvements, new features, and exciting possibilities for players. Let's go over the main changes that await you.</p>
