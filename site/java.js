@@ -116,7 +116,7 @@ var HOME = `
 let DOWNLOAD = `
 <h1>Update "Freddy Fazber Clicker" - Version 2.0</h1>
 
-<br> <br> <br> <a href="https://www.dropbox.com/t/G8M0CBqyNAUnkwES" download>Download<img src="download.png"></a> <br> <br> <br> <br> <br>
+<br> <br> <br> <a href="https://www.dropbox.com/t/G8M0CBqyNAUnkwES" download target="_blank">Download<img src="download.png"></a> <br> <br> <br> <br> <br>
 
 <h3>Introduction</h3>
 <p>We are excited to present to you the long-awaited update for "Freddy Fazber Clicker"! Version 2.0 includes numerous improvements, new features, and exciting possibilities for players. Let's go over the main changes that await you.</p>
