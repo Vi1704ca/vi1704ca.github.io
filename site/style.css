@@ -4,7 +4,7 @@ body {
     font-family: 'Comic Sans MS', cursive;
 }
 
-header, main a {
+header, #a {
     border: 5px solid #ff0000; /* Красная рамка */
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6), 0 0 30px rgba(255, 0, 0, 0.4);
     transition: box-shadow 0.3s ease-in-out;
@@ -52,7 +52,14 @@ main a {
     transition: color 0.3s ease-in-out;
 }
 
-main a:hover {
+#tran:hover {
+    color: #ff7070; /* Светло-красный при наведении */
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 64, 64, 0.8), 0 0 25px rgba(255, 64, 64, 0.6), 0 0 35px rgba(255, 64, 64, 0.4);
+    border: 8px solid #ff4d4d; /* Более темная красная рамка при наведении */
+}
+
+#a:hover {
     color: #ff7070; /* Светло-красный при наведении */
     cursor: pointer;
     box-shadow: 0 0 15px rgba(255, 64, 64, 0.8), 0 0 25px rgba(255, 64, 64, 0.6), 0 0 35px rgba(255, 64, 64, 0.4);
@@ -93,5 +100,46 @@ margin-right: 10px;
 
 /*width: 25px;
 /*height: 25px;
-/*margin-left: 10px;
+/*margin-left: 10px;*/
+#tran {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+    margin: 20px;
+    border: 5px solid #ff0000; /* Красная рамка у main */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6), 0 0 30px rgba(255, 0, 0, 0.4);
+    transition: 0.3s ease-in-out;
+    padding: 12px;
+    background-color: transparent;
+    font-family: 'Comic Sans MS', cursive;
+}
 
+#a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+    border: 5px solid #ff0000; /* Красная рамка у main */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6), 0 0 30px rgba(255, 0, 0, 0.4);
+    transition: 0.3s ease-in-out;
+    padding: 12px;
+    background-color: transparent;
+    font-family: 'Comic Sans MS', cursive;
+}
